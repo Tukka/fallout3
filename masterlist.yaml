@@ -3399,3 +3399,55 @@ plugins:
     msg:
       - type: say
         content: Does not require a FOIP, provides complete compatibility between these two files
+  - name: UseableToilets.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/17566
+  - name: UniqueItems_1.1_ENG.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/17450
+  - name: fuckinvisiblewalls0.1.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/17831
+  - name: HT Unlimited Ammo.esp
+    req: [ *FOSE ]
+    url:
+      - http://fallout3.nexusmods.com/mods/17666
+  - name: AAR525.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/11182
+  - name: Tactical Flamer - 4PAK.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/17124
+  - name: Simply_Lockers_rev01.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/17964
+  - name: Weap_Spread.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/15879
+  - name: FWEAcceptableTechEVE.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/14672
+  - name: Modified_Races_MMM.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/12908
+  - name: BoE-WMK Unsorted Weapon Names.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/14776
+  - name: MyDog - Anchorage.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/15973
+  - name: ReillysRangerHelmetReward.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/7225
+  - name: Reign of Grelok.esp
+    url:
+      - http://fallout3.nexusmods.com/mods/14681
+  - name:
+    url:
+      -
+  - name:
+    url:
+      -
+  - name:
+    url:
+      -
