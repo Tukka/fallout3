@@ -179,8 +179,8 @@ plugins:
     group: *dlcGroup
     dirty:
       - <<: *dirtyPlugin # FO3Edit 3.0.32
-        crc: 0xa4ba9d10 # Version 0.94
-        itm: 54
+        crc: 0xA4BA9D10 # Version Steam GOTY 1.7.0.3
+        itm: 55
         udr: 10
         nav: 0
       - <<: *dirtyPlugin # FO3Edit 3.2.1
@@ -189,16 +189,18 @@ plugins:
         udr: 10
         nav: 0
     clean:
+      - crc: 0xCBBB287E # Version Steam GOTY 1.7.0.3
+        util: 'FO3Edit v3.2.72'
       - crc: 0x0E23F2EE # Version GOG 0.94
-        util: FO3Edit 3.2.1
+        util: 'FO3Edit 3.2.1'
   - name: 'thepitt.esm'
     group: *dlcGroup
     after:
       - 'anchorage.esm'
     dirty:
-      - <<: *dirtyPlugin # FO3Edit 3.0.32
-        crc: 0xb38b3e44 # Version 0.94
-        itm: 40
+      - <<: *dirtyPlugin # FO3Edit v3.2.72
+        crc: 0xB38B3E44 # Version Steam GOTY 1.7.0.3
+        itm: 53
         udr: 0
         nav: 5
       - <<: *dirtyPlugin # FO3Edit 3.2.1
@@ -207,8 +209,11 @@ plugins:
         udr: 4
         nav: 5
     clean:
+      - crc: 0xD67FB1B3 # Version Steam GOTY 1.7.0.3
+        util: 'FO3Edit v3.2.72'
+        nav: 5
       - crc: 0xDD37EC11 # Version GOG 0.94
-        util: FO3Edit 3.2.1
+        util: 'FO3Edit 3.2.1'
   - name: 'StreetLights.esm'
     group: *dlcGroup
     after:
@@ -235,10 +240,15 @@ plugins:
       - Factions
       - Stats
     dirty:
-      - <<: *dirtyPlugin # FO3Edit 3.0.32
-        crc: 0x30011b79 # Version 0.94
-        itm: 275
+      - <<: *dirtyPlugin # FO3Edit v3.2.72
+        crc: 0x30011B79 # Version Steam GOTY 1.7.0.3
+        itm: 276
         udr: 34
+        nav: 12
+      - <<: *dirtyPlugin # FO3Edit v3.2.72
+        crc: 0x706A85DC # Version Steam GOTY 1.7.0.3
+        itm: 2
+        udr: 0
         nav: 12
       - <<: *dirtyPlugin # FO3Edit 3.2.1
         crc: 0xA4AE55B2 # Version GOG 0.94
@@ -246,8 +256,11 @@ plugins:
         udr: 34
         nav: 12
     clean:
+      - crc: 0x5996A00E # Version Steam GOTY 1.7.0.3
+        util: 'FO3Edit v3.2.72'
+        nav: 12
       - crc: 0xC6315349 # Version GOG 0.94
-        util: FO3Edit 3.2.1
+        util: 'FO3Edit 3.2.1'
   - name: 'pointlookout.esm'
     group: *dlcGroup
     after:
@@ -256,8 +269,8 @@ plugins:
       - 'StreetLights.esm'
       - 'BrokenSteel.esm'
     dirty:
-      - <<: *dirtyPlugin # FO3Edit 3.0.32
-        crc: 0xd92704d8 # Version 0.94
+      - <<: *dirtyPlugin # FO3Edit v3.2.72
+        crc: 0xD92704D8 # Version Steam GOTY 1.7.0.3
         itm: 21
         udr: 0
         nav: 0
@@ -267,8 +280,10 @@ plugins:
         udr: 0
         nav: 0
     clean:
+      - crc: 0x6A04AB20 # Version Steam GOTY 1.7.0.3
+        util: 'FO3Edit v3.2.72'
       - crc: 0x58BAC54E # Version GOG 0.94
-        util: FO3Edit 3.2.1
+        util: 'FO3Edit 3.2.1'
   - name: 'zeta.esm'
     group: *dlcGroup
     after:
@@ -278,8 +293,8 @@ plugins:
       - 'BrokenSteel.esm'
       - 'pointlookout.esm'
     dirty:
-      - <<: *dirtyPlugin # FO3Edit 3.0.32
-        crc: 0x1d017e23 # Version 0.94
+      - <<: *dirtyPlugin # FO3Edit v3.2.72
+        crc: 0x1D017E23 # Version Steam GOTY 1.7.0.3
         itm: 15
         udr: 0
         nav: 0
@@ -289,8 +304,10 @@ plugins:
         udr: 0
         nav: 0
     clean:
+      - crc: 0x71C32107 # Version Steam GOTY 1.7.0.3
+        util: 'FO3Edit v3.2.72'
       - crc: 0xD90EF484 # Version GOG 0.94
-        util: FO3Edit 3.2.1
+        util: 'FO3Edit 3.2.1'
   - name: 'Unofficial Fallout 3 Patch.esm'
     group: *uf4pGroup
     after:
